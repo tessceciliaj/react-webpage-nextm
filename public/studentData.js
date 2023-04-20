@@ -12,7 +12,40 @@ const studentData = [
         email: "",
         desc: ""
     },
-        {
+    {
+        id: `${}`,
+        name: "Alline Pernilla Ackerfors",
+        profession: "Digital artist",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/alline-ackerfors-8108211b3/",
+        portfolio: true,
+        portfolioUrl: "http://www.allinefors.com/",
+        email: "allinefors@gmail.com",
+        desc: "Im a 3D digital artist that enjoys create new worlds digitally using: Autodesk Maya, Zbrush, Unreal, Substance Painter, Effect house and Spark AR"
+    },
+    {
+        id: `${}`,
+        name: "Jad Tawbi",
+        profession: "Game Designer and Programmer | XR Creator",
+        likedin: true,
+        linkedinUrl: "http://www.linkedin.com/in/jad-tawbi-682a90218/",
+        portfolio: true,
+        portfolioUrl: "https://www.canva.com/design/DAFZnVuMknc/k0pEjoSyt7B-Q7LmaV96rg/view",
+        email: "jad.tawbi2@gmail.com",
+        desc: "As a Game Designer and Programmer with 4 years of experience in game development, I am passionate about creating meaningful and engaging experiences through my expertise and strive for quality and efficiency in every project I undertake. Throughout my academic and extracurricular pursuits, I have built a strong foundation in creation tools, engines, game design methods, collaborative teamwork, and leadership. As a result, I have a proven track record of producing quality work and excel in both team and individual environments."
+    },
+    {
+        id: `${}`,
+        name: "Sutthiporn Paso",
+        profession: "Senior graphic and 3D designer",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/amm-paso",
+        portfolio: true,
+        portfolioUrl: "https://pasoamiko.wixsite.com/website",
+        email: "pasoamiko@gmail.com",
+        desc: "I am a Graphic Designer from Bangkok with a Master’s Degree in Industrial Education (Product Design) and Bachelor’s degree in Architecture (Industrial Design ). I began my design career over 7 years ago as event 3D designer and now I have opportunities study Immersive Experince Creator at Futuregames. I looking for internship opportunities within design and Immersive Experience. If you need a creative designer with several years of experience do not hesitate to send me message."
+    },
+    {
         id: `${}`,
         name: "Alex Kaminska",
         profession: "Narrative designer",
