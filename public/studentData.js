@@ -14,6 +14,17 @@ const studentData = [
     },
     {
         id: `${}`,
+        name: "Ida Mäkelä",
+        profession: "Frontend developer",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/makelaida/",
+        portfolio: true,
+        portfolioUrl: "https://idamakela.vercel.app/",
+        email: "idamakela98@gmail.com",
+        desc: "I never thought I could be a programmer, but here we are and I'm loving every second of it. Maybe not so much when there is a bug, but the feeling of solving the problem and to have learned something new from it is remarkable. I really like the UX part of building websites, probably because of my background in behavioural science, and I have gotten my eyes up for backend development and hope to explore that area more in the future. To be in a field of work where there is so many areas to choose from can be overwhelming but I love the opportunity of meeting people with different areas of expertise and learning from it!"
+    },
+    {
+        id: `${}`,
         name: "Ivar Kronqvist",
         profession: ["Immersive experiance creator", "Nurse"],
         likedin: true,
