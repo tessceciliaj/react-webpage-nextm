@@ -12,21 +12,43 @@ const studentData = [
         email: "",
         desc: ""
     },
+        {
+        id: `${}`,
+        name: "Alex Kaminska",
+        profession: "Narrative designer",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/alexkami",
+        portfolio: true,
+        portfolioUrl: "https://www.alexkami.com/",
+        email: "textcreating@gmail.com",
+        desc: "14 years in copywriting, 12 years in games, and 5 years as a publishing writer. Games and interactive stories are my biggest passion, and my vibe is to make the story playable, unforgettable, and beloved by millions. I’m good with making story structures, mixing creation and deadlines, business, and passion. I can do: game narrative, pitch and presentation, marketing texts, storyline, game flow, complex story, gdd, feature documents, quests, quests schemes, dialogues, technical tasks, briefs, prototype gdd, troubleshooting, and problem-solving. I am keen on logic, science, and structure, and I love chaos and the magic of creativity. I make games as immersive as it is only imaginable. I am currently updating my skills with Immersive Experience Creation and looking for new games to make. Hard skills: story writing, narrative design, GDDs, dialogues, plots, quests schemes, narrative management, organizing (convert chaos into the structure), UI/UX improvements, data mining, game problem-solving, evidence-based and result-oriented game development. Soft skills: stress tolerance, communication, creativity and educability, no-stress collaboration, hardworking"
+    },
+        {
+        id: `${}`,
+        name: "Rafal Zygula",
+        profession: "Agile Project Manager & Business Developer | Passionate about Digitization & Sustainability | Future-focused Product Designer | VR/AR/XR Explorer | Immersive Experience Enthusiast",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/rafal-zygula/",
+        portfolio: false,
+        portfolioUrl: "",
+        email: "rafal.zygula@gmail.com",
+        desc: "Passionate IT professional with expertise in Agile Project Management, Product Management, Scrum Master, and Business Development. Committed to driving digitization and sustainability through continuous improvement, implementation plans, and managing small to medium-sized projects. Adept at leading teams to achieve their goals by creating effective structures and facilitating transparent communication. Skilled in conducting qualitative and quantitative research to develop strategies for business growth, improving communication tools, and identifying opportunities to enhance structure and framework using design thinking and the double diamond methods. Eager to explore Product Design roles and expand expertise in Virtual Reality, AR, and XR solutions through the Immersive Experience Creator course at Futuregames."
+    },
     {
         id: `${}`,
         name: "Ida Mäkelä",
-        profession: "Frontend developer",
+        profession: "Frontend developer | Behavioral scientist",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/makelaida/",
         portfolio: true,
         portfolioUrl: "https://idamakela.vercel.app/",
         email: "idamakela98@gmail.com",
-        desc: "I never thought I could be a programmer, but here we are and I'm loving every second of it. Maybe not so much when there is a bug, but the feeling of solving the problem and to have learned something new from it is remarkable. I really like the UX part of building websites, probably because of my background in behavioural science, and I have gotten my eyes up for backend development and hope to explore that area more in the future. To be in a field of work where there is so many areas to choose from can be overwhelming but I love the opportunity of meeting people with different areas of expertise and learning from it!"
+        desc: "I never thought I could be a programmer, but here we are and I'm loving every second of it. Maybe not so much when there's bugs, but the feeling of solving the problem and to have learned something new is remarkable. I really like the UX part of building websites, probably because of my background in behavioural science, and I have gotten my eyes up for backend development and hope to explore that area more in the future. To be in a field of work where there is so many areas to choose from can be overwhelming but I love the opportunity of meeting people with different areas of expertise and learning from it!"
     },
     {
         id: `${}`,
         name: "Ivar Kronqvist",
-        profession: "Immersive experiance creator Nurse",
+        profession: "Immersive experiance creator | Nurse",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/ivar-kronqvist-86337324b/",
         portfolio: true,
@@ -37,7 +59,7 @@ const studentData = [
     {
         id: `${}`,
         name: "Ardavan Masihabadi",
-        profession: "Music Composer, Mix Engineer Sound Designer",
+        profession: "Music Composer | Mix Engineer | Sound Designer",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/ardavan-masihabadi-482a311b1",
         portfolio: true,
@@ -48,7 +70,7 @@ const studentData = [
         {
         id: `${}`,
         name: "Sheila Géa",
-        profession: "Immersive Experience Creator (VR - AR ), Architect ",
+        profession: "Immersive Experience Creator (VR - AR ) | Architect ",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/sheilagea/",
         portfolio: true,
