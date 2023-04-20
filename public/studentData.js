@@ -26,7 +26,7 @@ const studentData = [
     {
         id: `${}`,
         name: "Ivar Kronqvist",
-        profession: ["Immersive experiance creator", "Nurse"],
+        profession: "Immersive experiance creator Nurse",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/ivar-kronqvist-86337324b/",
         portfolio: true,
@@ -37,7 +37,7 @@ const studentData = [
     {
         id: `${}`,
         name: "Ardavan Masihabadi",
-        profession: ["Music Composer", "Mix Engineer", "Sound Designer"],
+        profession: "Music Composer, Mix Engineer Sound Designer",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/ardavan-masihabadi-482a311b1",
         portfolio: true,
@@ -48,7 +48,7 @@ const studentData = [
         {
         id: `${}`,
         name: "Sheila Géa",
-        profession: ["Immersive Experience Creator (VR - AR )", "Architect "],
+        profession: "Immersive Experience Creator (VR - AR ), Architect ",
         likedin: true,
         linkedinUrl: "https://www.linkedin.com/in/sheilagea/",
         portfolio: true,
