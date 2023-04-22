@@ -14,6 +14,50 @@ const studentData = [
     },
     {
         id: `${}`,
+        name: "Stefan Kasapovski",
+        profession: "Immersive audio designer ",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/stefan-kasapovski-a1b78b225/",
+        portfolio: false,
+        portfolioUrl: "",
+        email: "stedakas@gmail.com",
+        desc: "Immersive audio designer for extended reality, games and linear audio"
+    },
+    {
+        id: `${}`,
+        name: "Rang Li",
+        profession: "Visual Designer | Creative Director | Art Director | Immersive Experience Creator | Artist",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/rang-li-8143b687/",
+        portfolio: true,
+        portfolioUrl: "https://cargocollective.com/youya", //https://www.behance.net/youya-youya
+        email: "youyayewya@gmail.com",
+        desc: "Rang Li is a visual designer, artist, illustrator, picture book author, curator and director. She has been based in Stockholm, since 2017. She has been active in the publishing industry since 2005 and has designed more than 250 books. In addition, she has been involved in a wide range of design projects - including graphic design, product and packaging design, character design, web design and branding. In these projects, she has taken on roles as designer, curator, project planner, art designer and creative director. In addition, she has severed as an adviser to several large publishers and given lectures to college students, artists and others."
+    },
+    {
+        id: `${}`,
+        name: "Vitor Rossini",
+        profession: "Game Designer",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/vitor-rossini-0054021b8/",
+        portfolio: false,
+        portfolioUrl: "",
+        email: "vitorrossini@live.com",
+        desc: "When I moved to Sweden with my family almost 2 years ago, I took the opportunity to also change careers and follow what I always wanted to do in life but never thought it would be possible: to work with video games. I'm currently studying Game Design at Futuregames and I couldn't be happier knowing that I can still use all the problem solving and management skills I've acquired along the years on my previous job."
+    },
+    {
+        id: `${}`,
+        name: "Carl Reinestam",
+        profession: "Brandbuilder | AI-activist | Metaverse explorer",
+        likedin: true,
+        linkedinUrl: "https://www.linkedin.com/in/carl-reinestam-838633",
+        portfolio: false,
+        portfolioUrl: "",
+        email: "reinestam@gmail.com",
+        desc: "Carl is a sales-driven senior manager and intrapreneur with a proven track record of international business and a schooling from Sweden, Japan, France, and United States. He has a great passion for people, organizations, business models, cultures, and the outdoors. He is currently studying computer and information sciences and support services at Changemaker Educations, where he learns how to create content for immersive media (VR, AR, and other interactive video and audio). He is interested in the mix between real life, e-sport and metaverse, and believes in humanity's ability to create a sustainable future for society."
+    },
+    {
+        id: `${}`,
         name: "Alline Pernilla Ackerfors",
         profession: "Digital artist",
         likedin: true,
@@ -43,7 +87,7 @@ const studentData = [
         portfolio: true,
         portfolioUrl: "https://pasoamiko.wixsite.com/website",
         email: "pasoamiko@gmail.com",
-        desc: "I am a Graphic Designer from Bangkok with a Master’s Degree in Industrial Education (Product Design) and Bachelor’s degree in Architecture (Industrial Design ). I began my design career over 7 years ago as event 3D designer and now I have opportunities study Immersive Experince Creator at Futuregames. I looking for internship opportunities within design and Immersive Experience. If you need a creative designer with several years of experience do not hesitate to send me message."
+        desc: "I am a Graphic Designer from Bangkok with a Master's Degree in Industrial Education (Product Design) and Bachelor’s degree in Architecture (Industrial Design ). I began my design career over 7 years ago as event 3D designer and now I have opportunities study Immersive Experince Creator at Futuregames. I looking for internship opportunities within design and Immersive Experience. If you need a creative designer with several years of experience do not hesitate to send me message."
     },
     {
         id: `${}`,
