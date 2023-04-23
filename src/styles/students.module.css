@@ -1,0 +1,48 @@
+.title {
+    font-weight: 300;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8vh;
+}
+
+.studentCard {
+    background-color: rgb(240, 242, 247);
+    border-radius: 5px;
+    margin: 5px auto;
+    
+    width: calc(50vw - 10px);
+}
+
+.studentCard h3 {
+     color: var(--dark-blue);
+    font-size: 18px;
+    padding: 8px 4px 0;
+}
+
+.studentCard img {
+    margin: 8px 23% 0;
+    border-radius: 50%;
+}
+
+.studentCard p {
+   font-size: 14px;
+   padding: 8px 4px;
+}
+
+.portfolio {
+ color: var(--dark-blue);
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.arrowLeft a{
+    color: var(--dark-blue);
+    left: 16px;
+    position: absolute;
+    top: 16px;
+}
