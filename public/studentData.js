@@ -2,19 +2,19 @@
 
 const studentData = [
     {
-        id: `${}`,
+        id: "1",
         name: "",
         profession: "",
-        likedin: ,
+        likedin: true,
         linkedinUrl: "",
-        portfolio: ,
+        portfolio: "https://lunagrace.tech/",
         portfolioUrl: "",
         email: "",
         desc: "",
         img: ""
     },
     {
-        id: `${}`,
+        id: "2",
         name: "Stefan Kasapovski",
         profession: "Immersive audio designer ",
         likedin: true,
@@ -26,7 +26,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "3",
         name: "Rang Li",
         profession: "Visual Designer | Creative Director | Art Director | Immersive Experience Creator | Artist",
         likedin: true,
@@ -38,7 +38,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "4",
         name: "Vitor Rossini",
         profession: "Game Designer",
         likedin: true,
@@ -50,7 +50,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "5",
         name: "Carl Reinestam",
         profession: "Brandbuilder | AI-activist | Metaverse explorer",
         likedin: true,
@@ -62,7 +62,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "6",
         name: "Alline Pernilla Ackerfors",
         profession: "Digital artist",
         likedin: true,
@@ -74,7 +74,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "7",
         name: "Jad Tawbi",
         profession: "Game Designer and Programmer | XR Creator",
         likedin: true,
@@ -86,7 +86,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "8",
         name: "Sutthiporn Paso",
         profession: "Senior graphic and 3D designer",
         likedin: true,
@@ -98,7 +98,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "9",
         name: "Alex Kaminska",
         profession: "Narrative designer",
         likedin: true,
@@ -110,7 +110,7 @@ const studentData = [
         img: ""
     },
         {
-        id: `${}`,
+        id: "10",
         name: "Rafal Zygula",
         profession: "Agile Project Manager & Business Developer | Passionate about Digitization & Sustainability | Future-focused Product Designer | VR/AR/XR Explorer | Immersive Experience Enthusiast",
         likedin: true,
@@ -122,7 +122,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "11",
         name: "Ida Mäkelä",
         profession: "Frontend developer | Behavioral scientist",
         likedin: true,
@@ -134,7 +134,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "12",
         name: "Ivar Kronqvist",
         profession: "Immersive experiance creator | Nurse",
         likedin: true,
@@ -146,7 +146,7 @@ const studentData = [
         img: ""
     },
     {
-        id: `${}`,
+        id: "13",
         name: "Ardavan Masihabadi",
         profession: "Music Composer | Mix Engineer | Sound Designer",
         likedin: true,
@@ -158,7 +158,7 @@ const studentData = [
         img: ""
     },
         {
-        id: `${}`,
+        id: "14",
         name: "Sheila Géa",
         profession: "Immersive Experience Creator (VR - AR ) | Architect ",
         likedin: true,
