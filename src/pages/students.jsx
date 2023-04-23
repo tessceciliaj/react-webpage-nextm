@@ -1,5 +1,5 @@
 import studentData from '../../public/studentData.js';
-import StudentCard from './StudentCard.jsx';
+import StudentCard from '../components/StudentCard.jsx';
 
 export default function Students() {
     return (
