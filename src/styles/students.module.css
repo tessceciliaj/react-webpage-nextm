@@ -1,26 +1,29 @@
 .title {
     font-weight: 300;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 
 .cardContainer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 
 .studentCard {
     background-color: rgb(240, 242, 247);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 5px auto;
-    
     width: calc(50vw - 10px);
+    text-align: center;
 }
 
 .studentCard h3 {
      color: var(--dark-blue);
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px 4px 0;
 }
 
@@ -45,4 +48,8 @@
     left: 16px;
     position: absolute;
     top: 16px;
+}
+
+.mail {
+    font-weight: 300;
 }

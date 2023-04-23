@@ -1,7 +1,7 @@
 // make id for every student with nanoid
 
 const studentData = [
-  {
+ /* {
     id: '1',
     name: '',
     profession: '',
@@ -12,7 +12,7 @@ const studentData = [
     email: '',
     desc: '',
     img: '',
-  },
+},*/
   {
     id: '2',
     name: 'Stefan Kasapovski',
