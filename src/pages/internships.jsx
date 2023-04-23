@@ -4,6 +4,7 @@ import { initializeApp } from 'firebase/app';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import firebaseConfig from '../firebaseConfig';
 import styles from '../styles/internships.module.css';
+import { Link } from 'react-router-dom';
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
@@ -38,8 +39,9 @@ export default function internships() {
     <>
       <div className={styles.upperContainer}>
         <div className={styles.arrowLeft}>
-          {' '}
-          <FaArrowLeft />{' '}
+          <Link to="/">
+            <FaArrowLeft />
+          </Link>
         </div>
         <h1>Lets talk</h1>
         <p>Lorem impsum sit amet consectetur adipisicing elit, sed do.</p>
