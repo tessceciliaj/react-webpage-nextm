@@ -12,12 +12,27 @@ export default function internships() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [clicked, setClicked] = useState(false);
 
-  //to see data
-  console.log('name is: ' + name);
-  console.log('email is: ' + email);
-  console.log('phone is: ' + phone);
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log('name is: ' + name);
+    console.log('email is: ' + email);
+    console.log('phone is: ' + phone);
+
+    const databaseRef = ref(database, 'internshipSignups');
+    const person = {
+      name: name,
+      email: email,
+      phone: phone,
+    };
+    push(databaseRef, person)
+      .then(() => {
+        console.log('Data written successfully!');
+      })
+      .catch((error) => {
+        console.error('Error writing data: ', error);
+      });
+  };
 
   return (
     <>
@@ -64,7 +79,7 @@ export default function internships() {
         </form>
         <h2>Personal Information</h2>
       </div>
-      <button className={styles.btn}>
+      <button className={styles.btn} onClick={handleClick}>
         <FaArrowRight />
       </button>
     </>
