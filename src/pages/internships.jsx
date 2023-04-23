@@ -6,7 +6,7 @@ export default function internships() {
   return (
     <>
     <div className={styles.upperContainer}>
-      <div> <FaArrowLeft/> </div>
+      <div className={styles.arrowLeft}> <FaArrowLeft/> </div>
       <h1>Lets talk</h1>
       <p>Lorem impsum sit amet consectetur adipisicing elit, sed do.</p>
     </div>
@@ -18,7 +18,7 @@ export default function internships() {
       </form>
       <h2>Personal Information</h2>
     </div>
-    <button>
+    <button className={styles.btn}>
       <FaArrowRight/>
     </button>
     </>
