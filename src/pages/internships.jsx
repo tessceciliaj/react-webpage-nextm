@@ -1,17 +1,23 @@
-import React, { useState } from 'react';
-import styles from '../styles/internships.module.css';
+import React, { useState, useEffect } from 'react';
+import { getDatabase, ref, push } from 'firebase/database';
+import { initializeApp } from 'firebase/app';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+import firebaseConfig from '../firebaseConfig';
+import styles from '../styles/internships.module.css';
+
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
 
 export default function internships() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [clicked, setClicked] = useState(false);
 
-  //to see data 
+  //to see data
   console.log('name is: ' + name);
   console.log('email is: ' + email);
   console.log('phone is: ' + phone);
-  
 
   return (
     <>
