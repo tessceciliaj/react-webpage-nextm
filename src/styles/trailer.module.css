@@ -1,0 +1,34 @@
+.arrowLeft {
+    color: var(--dark-blue);
+    margin: 30px 16px;
+}
+
+.upperContainer {
+  
+}
+
+.upperContainer h1 {
+    color: var(--dark-blue);
+    font-size: 24px;
+    bottom: 56px;
+    text-align: center;
+    position: relative;
+}
+
+.videoContainer {
+    background-color: var(--light-blue);
+    height: 300px;
+    margin: auto;
+    width: 300px;
+}
+
+.lowerContainer {
+  color: var(--dark-blue) ;
+  padding: 40px;
+  text-align: center;
+}
+
+.lowerContainer h3 {
+    margin: 8px;
+    font-style: italic;
+}
