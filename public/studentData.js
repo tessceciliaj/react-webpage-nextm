@@ -13,10 +13,22 @@ const studentData = [
     desc: '',
     img: '',
 },*/
+//{
+//     id: '1',
+//     name: 'Sheila Géa',
+//     profession: 'XR Generalist | Art & Game design',
+//     likedin: true,
+//     linkedinUrl: 'https://www.linkedin.com/in/sheilagea/',
+//     portfolio: true,
+//     portfolioUrl: 'https://www.sheiladgea.com/',
+//     email: '',
+//     desc: '',
+//     img: '',
+// },
     {
         id: '2',
         name: 'Stefan Kasapovski',
-        profession: 'Immersive audio designer ',
+        profession: 'Immersive audio designer',
         likedin: true,
         linkedinUrl: 'https://www.linkedin.com/in/stefan-kasapovski-a1b78b225/',
         portfolio: false,
