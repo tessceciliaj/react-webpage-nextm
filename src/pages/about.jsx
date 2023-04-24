@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/about.module.css'
-import student from '../assets/student1.png'
+import student from '../assets/student0.png'
 import { FaArrowLeft } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
