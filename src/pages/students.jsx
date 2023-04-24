@@ -6,18 +6,18 @@ import { Link } from 'react-router-dom';
 
 export default function Students() {
     return (
-      <div>
-        <div className={styles.arrowLeft}>
-          <Link to="/">
-            <FaArrowLeft />
-          </Link>
+        <div>
+            <div className={styles.arrowLeft}>
+                <Link to='/'>
+                    <FaArrowLeft />
+                </Link>
+            </div>
+            <h1 className={styles.title}>STUDENTS</h1>
+            <div className={styles.cardContainer}>
+                {studentData.map((data) => {
+                    return <StudentCard key={data.id} {...data} />;
+                })}
+            </div>
         </div>
-        <h1 className={styles.title}>STUDENTS</h1>
-        <div className={styles.cardContainer}>
-          {studentData.map((data) => {
-            return <StudentCard key={data.id} {...data} />;
-          })}
-        </div>
-      </div>
     );
 }

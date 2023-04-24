@@ -1,21 +1,29 @@
-import styles from '../styles/students.module.css'
-import studentPic from '../assets/student1.png'
+import styles from '../styles/students.module.css';
+import studentPic from '../assets/student1.png';
 
-export default function StudentCard({img, name, profession, email, portfolioUrl}) {
+export default function StudentCard({ img, name, profession, portfolioUrl }) {
+    const fullDesc = profession;
+    const words = fullDesc.split(' ');
+    const selectedWords = words.slice(0, 4);
+    const smallDesc = selectedWords.join(' ');
+
+
     return (
         <div className={styles.studentCard}>
-            <div>
-              <img src={studentPic} width={100} height={100} alt="student image" />
-              <h3>{name}</h3>
-              <p className={styles.profession}>{profession}</p>
-              </div>
-              <div className={styles.lower}>
-                <hr/>
-              <p className={styles.mail}>{email}</p>
-              <a href={portfolioUrl}>
-                <p className={styles.portfolio}>Portfolio</p>
-              </a>
-              </div>
+            <div className={styles.upper}>
+                <img src={studentPic} width={200} height={200} alt='student image' />
+            </div>
+            <div className={styles.lower}>
+                <h3>{name}</h3>
+                <p className={styles.profession}>{`${smallDesc}...`}</p>
+                <div className={styles.links}>
+                    <a href={portfolioUrl}>
+                        <p className={styles.link}>Portfolio</p>
+                    </a>
+                    <span>|</span>
+                    <p className={styles.link}>Read more</p>
+                </div>
+            </div>
         </div>
     );
 }
