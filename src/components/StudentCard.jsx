@@ -1,5 +1,5 @@
 import styles from '../styles/students.module.css'
-import studentPic from '../assets/student.png'
+import studentPic from '../assets/student1.png'
 
 export default function StudentCard({img, name, profession, email, portfolioUrl}) {
     return (
@@ -9,10 +9,13 @@ export default function StudentCard({img, name, profession, email, portfolioUrl}
               <h3>{name}</h3>
               <p className={styles.profession}>{profession}</p>
               </div>
+              <div className={styles.lower}>
+                <hr/>
               <p className={styles.mail}>{email}</p>
               <a href={portfolioUrl}>
                 <p className={styles.portfolio}>Portfolio</p>
               </a>
+              </div>
         </div>
     );
 }
