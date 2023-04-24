@@ -12,7 +12,6 @@
 
 .studentCard {
     background-color: rgb(240, 242, 247);
-    border-radius: 5px;
     display: flex;
     margin: 5px auto;
     width: 100%;
@@ -32,6 +31,7 @@
 .links {
     color: var(--base-dark);
     display: flex;
+    align-items: center;
     margin-top: 10px;
     gap: 8px;
     text-transform: uppercase;
