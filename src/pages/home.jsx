@@ -16,10 +16,10 @@ const sliderContent = [
      button: "BROWSE" },
     { title: 'Trailer',
      description: 'Meet our students, watch the trailer!',
-     button: "TRY NOW" },
+     button: "WATCH NOW" },
     { title: 'About all this',
      description: 'This is why er are here.',
-     button: "TRY NOW" }
+     button: "FIND OUT MORE" }
   ]
 
 export default function home() {
