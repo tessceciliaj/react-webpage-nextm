@@ -208,7 +208,7 @@ const studentData = [
     email: 'dejones@fyooche.com',
     desc: "Are you looking for innovative ways to engage your audience and leave them in awe? As a VR creator with a background in music and sound design, I specialize in crafting unforgettable immersive experiences. Whether you're interested in VR, AR, or other immersive technologies, I'm here to help you create something truly special. Let's collaborate and bring your vision to life in ways you never thought possible.But I'm not just here for you. As an XR creator, I'm always on the lookout for new opportunities to collaborate with like-minded individuals and push the boundaries of immersive technology.",
     img: '',
-  }
+  },
 ];
 
 export default studentData;
