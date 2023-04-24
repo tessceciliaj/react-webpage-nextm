@@ -16,11 +16,18 @@ export default function StudentCard({ img, name, profession, portfolioUrl, portf
         <h3>{name}</h3>
         <p className={styles.profession}>{`${smallDesc}`}</p>
         <div className={styles.links}>
-          <a href={portfolioUrl}>
-            <p className={styles.link}>Portfolio</p>
-          </a>
+          {portfolio ? (
+            <a href={portfolioUrl}>
+              <p className={styles.link}>Portfolio</p>
+            </a>
+          ) : (
+            <a href={portfolioUrl}>
+              <p className={styles.link} id={styles.disabled}>Portfolio</p>
+            </a>
+          )}
+
           <span>|</span>
-          <p className={styles.link}>Read more</p>
+          <div className={styles.link}>Read more</div>
         </div>
       </div>
     </div>
