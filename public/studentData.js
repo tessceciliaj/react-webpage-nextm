@@ -77,7 +77,7 @@ const studentData = [
   {
     id: '5',
     name: 'Carl Reinestam',
-    profession: 'Brandbuilder | AI-activist | Metaverse explorer',
+    profession: 'Metaverse Marketeer',
     likedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/carl-reinestam-838633',
     portfolio: false,
@@ -101,7 +101,7 @@ const studentData = [
   {
     id: '7',
     name: 'Jad Tawbi',
-    profession: 'Game Designer and Programmer | XR Creator',
+    profession: 'Experience Designer & Programmer',
     likedin: true,
     linkedinUrl: 'http://www.linkedin.com/in/jad-tawbi-682a90218/',
     portfolio: true,
@@ -114,7 +114,7 @@ const studentData = [
   {
     id: '8',
     name: 'Sutthiporn Paso',
-    profession: 'Senior graphic and 3D designer',
+    profession: '3D Event Designer',
     likedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/amm-paso',
     portfolio: true,
@@ -163,7 +163,7 @@ const studentData = [
   {
     id: '12',
     name: 'Ivar Kronqvist',
-    profession: 'Immersive experiance creator | Nurse',
+    profession: 'XR Producer',
     likedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/ivar-kronqvist-86337324b/',
     portfolio: true,
