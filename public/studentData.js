@@ -17,7 +17,7 @@ const studentData = [
         id: '0',
         name: 'Pixie Röjarsvärd',
         profession: 'Game Designer',
-        likedin: false,
+        likedin: true,
         linkedinUrl: 'https://www.linkedin.com/in/pixie-rojarsvard',
         portfolio: false,
         portfolioUrl: '',
@@ -217,6 +217,30 @@ const studentData = [
         desc: '',
         img: '',
     },
+    {
+        id: '17',
+        name: 'Katarina Håkansson',
+        profession: 'Beauty Tech Expert',
+        likedin: true,
+        linkedinUrl: 'https://www.linkedin.com/in/katarina-h-00209a15/',
+        portfolio: true,
+        portfolioUrl: 'http://www.wmartistmanagement.com/artists/creative/katarina-hakansson/',
+        email: '',
+        desc: '',
+        img: '',
+    },
+    {
+        id: '18',
+        name: 'Johan Fremin',
+        profession: 'Immersive Experience Creator',
+        likedin: true,
+        linkedinUrl: 'https://www.linkedin.com/in/johan-fremin-7b414922/',
+        portfolio: false,
+        portfolioUrl: '',
+        email: 'johanfremin@hotmail.com',
+        desc: 'As an accomplished Graphic Designer and Creative Director with over 30 years of experience, I have a passion for creating engaging and memorable experiences through immersive design. My expertise in visualizing complex concepts and ideas has allowed me to create natural and intuitive UX/UI designs that delight users and keep them engaged. I am well-versed in both 3D and 2D graphic design and have a deep understanding of VR tools and technologies. My extensive experience in multimedia, games, e-learning, advertising, and video production has given me a unique perspective that allows me to push the limits of what is possible and create captivating experiences that leave a lasting impression. Currently, I am working extensively with immersive experiences, aspiring to be a leader in this field by coming up with innovative and creative concepts that take the user on a journey.',
+        img: '',
+    }
 ];
 
 export default studentData;
