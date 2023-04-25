@@ -16,10 +16,10 @@ const sliderContent = [
      button: "BROWSE" },
     { title: 'Trailer',
      description: 'Meet our students, watch the trailer!',
-     button: "TRY NOW" },
+     button: "WATCH NOW" },
     { title: 'About all this',
      description: 'This is why er are here.',
-     button: "TRY NOW" }
+     button: "FIND OUT MORE" }
   ]
 
 export default function home() {
@@ -66,7 +66,7 @@ export default function home() {
     <img src={blueShape} alt='Blue Shape' width={200} height={210} />
       <h3>{sliderContent[2].title}</h3>
       <p>{sliderContent[2].description}</p>
-      <Link to="/tiktokfilter">
+      <Link to="/trailer">
         <button className={styles.btnFront}>
           {sliderContent[2].button}
         </button>

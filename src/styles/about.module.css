@@ -1,0 +1,48 @@
+.arrowLeft {
+    font-size: 20px;
+    color: var(--dark-blue);
+    margin: 30px 16px 0;
+}
+
+.upperContainer {
+    background-color: rgb(244, 249, 252);
+    color: var(--dark-blue);
+    height: 40vh;
+    margin: 20px 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.upperContainer h1 {
+    font-size: 20px;
+    margin: 12px;
+}
+
+.upperContainer p {
+    font-size: 14px;
+}
+
+.lowerContainer {
+    background-color: rgb(108, 186, 255);
+    color: var(--base-light);
+    height: 40vh;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.innerContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.innerContainer img {
+    border-radius: 50%;
+    margin-right: 8px;
+}
