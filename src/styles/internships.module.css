@@ -8,16 +8,18 @@
 .upperContainer h1 {
     font-size: 20px;
     margin: var(--input-padding);
-    margin-top: 8vh;
+    margin-top: 4vh;
 }
 
 .upperContainer p {
    font-size: 14px;
-   font-weight: 300; 
+   font-weight: 300;
+   margin: auto; 
+   width: 300px;
 }
 
 .arrowLeft {
-    padding: 10px;
+    padding: 40px 10px 0;
     text-align: left;
 }
 

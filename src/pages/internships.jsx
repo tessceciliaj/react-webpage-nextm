@@ -44,7 +44,7 @@ export default function internships() {
           </Link>
         </div>
         <h1>Lets talk</h1>
-        <p>Lorem impsum sit amet consectetur adipisicing elit, sed do.</p>
+        <p>Are you interested in futureproof talent? Fill out your contact information here.</p>
       </div>
       <div className={styles.lowerContainer}>
         <form>

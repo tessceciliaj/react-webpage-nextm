@@ -9,16 +9,16 @@ import { Link } from 'react-router-dom';
 
 const sliderContent = [
     { title: 'Internships',
-     description: 'Let us future proof your company.',
+     description: 'What are you looking for?',
      button: "LET'S TALK" },
     { title: 'Students',
-     description: 'What competens are you in need of?',
+     description: 'Introductions for you to enjoy.',
      button: "BROWSE" },
     { title: 'Trailer',
      description: 'Meet our students, watch the trailer!',
      button: "WATCH NOW" },
     { title: 'About all this',
-     description: 'This is why er are here.',
+     description: 'Try a piece of the future!',
      button: "FIND OUT MORE" }
   ]
 

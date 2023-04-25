@@ -6,6 +6,11 @@
 .upperContainer {
   height: 90px;
   padding: 36px 16px 0;
+  
+}
+
+.upperContainer p {
+  width: 300px;
 }
 
 .upperContainer h1 {

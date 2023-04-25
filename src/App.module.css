@@ -16,7 +16,7 @@
 .upperContainer h2 {
   font-weight: 100;
   font-size: var(--h2);
-  padding:var(--input-padding);
+  padding-top:var(--input-padding);
 }
 
 .upperContainer h1 {
@@ -51,7 +51,7 @@
   border: none;
   border-radius: 5px;
   color: var(--base-light);
-  margin: 10% auto 15%;
+  margin: 8% auto 15%;
   padding: 14px;
   width: 300px;
 }
