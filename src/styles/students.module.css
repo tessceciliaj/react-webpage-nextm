@@ -78,3 +78,7 @@
   position: absolute;
   top: 16px;
 }
+
+.moreInfo {
+    display: none;
+}

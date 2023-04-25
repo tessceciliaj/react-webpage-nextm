@@ -32,6 +32,9 @@ export default function StudentCard({ img, name, profession, portfolioUrl, portf
                     <div className={styles.link}>Read more</div>
                 </div>
             </div>
+            <div className={styles.moreInfo}>
+                        MORE INFO
+            <div>
         </div>
     );
 }
