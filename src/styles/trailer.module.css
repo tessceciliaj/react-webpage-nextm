@@ -4,7 +4,7 @@
 }
 
 .upperContainer {
-  height: 90px;
+  height: 60px;
   padding: 16px;
 }
 
@@ -22,12 +22,20 @@
 }
 
 .lowerContainer {
-  color: var(--dark-blue) ;
-  padding: 40px;
+  background-color: var(--base-dark);
+  color: var(--light-blue);
+  margin: auto;
+  height: 240px;
   text-align: center;
+  width: 340px;
 }
 
 .lowerContainer h3 {
-    margin: 8px;
+    margin: 28px auto 12px;
     font-style: italic;
+    width: 300px;
+}
+
+.lowerContainer h2 {
+  padding-top: 40px;
 }

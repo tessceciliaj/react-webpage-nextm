@@ -26,7 +26,7 @@ export default function Trailer() {
         <YouTube videoId="MQFIhbYUndc" opts={opts} />
       </div>
       <div className={styles.lowerContainer}>
-        <h2>Watch our trailer.</h2>
+        <h2>Watch our trailer</h2>
         <h3>Introduction to our future proof talent!</h3>
       </div>
     </div>

@@ -44,42 +44,48 @@ export default function internships() {
           </Link>
         </div>
         <h1>Lets talk</h1>
-        <p>Lorem impsum sit amet consectetur adipisicing elit, sed do.</p>
+        <p>
+          Our students are looking for internships, and are here to show off
+          what they can do. Feel free to stay and have a chat.
+        </p>
       </div>
       <div className={styles.lowerContainer}>
         <form>
           <input
-            type='text'
-            id='name'
-            name='name'
+            type="text"
+            id="name"
+            name="name"
             value={name}
-            placeholder='John Doe'
+            placeholder="John Doe"
             onChange={(e) => {
               setName(e.target.value);
             }}
           />
           <input
-            type='text'
-            id='email'
-            name='email'
+            type="text"
+            id="email"
+            name="email"
             value={email}
-            placeholder='johndoe@example.com'
+            placeholder="johndoe@example.com"
             onChange={(e) => {
               setEmail(e.target.value);
             }}
           />
           <input
-            type='text'
-            id='phone'
-            name='phone'
+            type="text"
+            id="phone"
+            name="phone"
             value={phone}
-            placeholder='123-546 789'
+            placeholder="123-546 789"
             onChange={(e) => {
               setPhone(e.target.value);
             }}
           />
         </form>
-        <h2>Personal Information</h2>
+        <h2>
+          Our student body is diverse and features a variety of both experience
+          and skill. What are you looking for?
+        </h2>
       </div>
       <button className={styles.btn} onClick={handleClick}>
         <FaArrowRight />

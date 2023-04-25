@@ -9,19 +9,27 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/FG_logo.png'
 
 const sliderContent = [
-    { title: 'Internships',
-     description: 'Let us future proof your company.',
-     button: "LET'S TALK" },
-    { title: 'Students',
-     description: 'What competens are you in need of?',
-     button: "BROWSE" },
-    { title: 'Trailer',
-     description: 'Meet our students, watch the trailer!',
-     button: "WATCH NOW" },
-    { title: 'About all this',
-     description: 'This is why er are here.',
-     button: "FIND OUT MORE" }
-  ]
+  {
+    title: 'Internships',
+    description: 'Let us future proof your company.',
+    button: "LET'S TALK",
+  },
+  {
+    title: 'Students',
+    description: 'Introductions for you to enjoy.',
+    button: 'BROWSE',
+  },
+  {
+    title: 'Trailer',
+    description: 'Meet our students, watch the trailer!',
+    button: 'WATCH NOW',
+  },
+  {
+    title: 'About all this',
+    description: 'Try a piece of the future!',
+    button: 'FIND OUT MORE',
+  },
+];
 
 export default function home() {
   return (
