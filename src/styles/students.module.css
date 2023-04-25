@@ -54,6 +54,7 @@
 .studentCard p {
   font-size: 14px;
   padding-top: 4px;
+  text-transform: capitalize;
 }
 
 .links .link {
