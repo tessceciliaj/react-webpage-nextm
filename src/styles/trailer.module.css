@@ -5,7 +5,7 @@
 
 .upperContainer {
   height: 90px;
-  padding: 36px 30px 0;
+  padding: 36px 16px 0;
 }
 
 .upperContainer h1 {
@@ -16,9 +16,9 @@
 
 .videoContainer {
     background-color: var(--light-blue);
-    height: 300px;
+    height: 340px;
     margin: auto;
-    width: 300px;
+    width: 340px;
 }
 
 .lowerContainer {
