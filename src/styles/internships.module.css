@@ -47,8 +47,9 @@
 .lowerContainer h2 {
     color: var(--dark-blue);
     font-size: 16px;
-    margin-top: 10vh;
+    margin: 5vh auto 0;
     text-align: center;
+    width: 300px;
 }
 
 .btn {

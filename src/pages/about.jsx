@@ -13,8 +13,8 @@ export default function about() {
           </Link>
         </div>
       <div className={styles.upperContainer}>
-        <h1>Im a big fan of Lorem ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <h1>About all this</h1>
+        <p>"Just A Normal Room" is a VR experience made by the students that are here today. Try a piece of the future!</p>
       </div>
       <div className={styles.lowerContainer}>
         <div className={styles.innerContainer}>

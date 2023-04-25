@@ -79,7 +79,7 @@ export default function internships() {
             }}
           />
         </form>
-        <h2>Personal Information</h2>
+        <h2>Our student body is diverse and features a variety of both experience and skill. What are you looking for?</h2>
       </div>
       <button className={styles.btn} onClick={handleClick}>
         <FaArrowRight />
