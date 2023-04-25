@@ -1,18 +1,17 @@
 .arrowLeft {
     color: var(--dark-blue);
-    margin: 30px 16px;
+    font-size: 20px;
 }
 
 .upperContainer {
-  
+  height: 90px;
+  padding: 36px 30px 0;
 }
 
 .upperContainer h1 {
     color: var(--dark-blue);
     font-size: 24px;
-    bottom: 56px;
     text-align: center;
-    position: relative;
 }
 
 .videoContainer {

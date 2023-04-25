@@ -10,7 +10,6 @@ export default function Trailer() {
           <Link to="/">
             <FaArrowLeft className={styles.arrowLeft}/>
           </Link>
-          <h1>Trailer</h1>
         </div>
         <div className={styles.videoContainer}>
         /*VIDEO*/
