@@ -32,19 +32,28 @@
     font-weight: 400;
 }
 
-.emailbox {
+.contactInfo {
     padding-top: 8px;
+}
+
+.emailbox,
+.linkedinbox a {
     color: var(--accent-color);
     display: flex;
     align-items: center;
-    gap: 2%;
+    gap: 4px;
+}
+
+.linkedinbox a {
+    max-width: fit-content;
 }
 
 .email {
     text-transform: lowercase;
 }
 
-.emailbox .icon {
+.emailbox .icon,
+.linkedinbox a .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,8 +111,14 @@
   font-size: 12px;
 }
 
-.link#disabled {
+.link#disabled{
     color: #999999;
+}
+
+/*DOES NOT WANNA WORK CORRECTLY*/
+.linkedinbox a.disabled {
+    color: #999999;
+
 }
 
 .arrowLeft a {
@@ -112,7 +127,3 @@
   position: absolute;
   top: 16px;
 }
-
-/* .moreInfo {
-    display: none;
-} */

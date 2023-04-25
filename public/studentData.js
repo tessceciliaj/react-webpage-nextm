@@ -17,7 +17,7 @@ const studentData = [
         id: '0',
         name: 'Pixie Röjarsvärd',
         profession: 'Game Designer',
-        likedin: true,
+        likedin: false,
         linkedinUrl: 'https://www.linkedin.com/in/pixie-rojarsvard',
         portfolio: false,
         portfolioUrl: '',
