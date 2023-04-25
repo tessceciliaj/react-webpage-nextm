@@ -4,17 +4,46 @@
   text-align: center;
 }
 
-.cardContainer {
+.cardsContainer {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5vh;
 }
 
-.studentCard {
+.cardContainer {
   background-color: rgb(240, 242, 247);
   display: flex;
+  flex-direction: column;
   margin: 5px auto;
   width: 100%;
+}
+
+.studentCard {
+    display: flex;
+}
+
+.moreInfo {
+  padding: 4%;
+}
+
+.moreInfo p {
+    font-size: 14px;
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+.emailbox {
+    padding-top: 8px;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.emailbox .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .upper {
@@ -61,6 +90,7 @@
   color: var(--accent-color);
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   font-size: 12px;
 }
 
@@ -79,6 +109,6 @@
   top: 16px;
 }
 
-.moreInfo {
+/* .moreInfo {
     display: none;
-}
+} */

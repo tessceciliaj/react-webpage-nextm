@@ -13,7 +13,7 @@ export default function Students() {
                 </Link>
             </div>
             <h1 className={styles.title}>STUDENTS</h1>
-            <div className={styles.cardContainer}>
+            <div className={styles.cardsContainer}>
                 {studentData.map((data) => {
                     return <StudentCard key={data.id} {...data} />;
                 })}
