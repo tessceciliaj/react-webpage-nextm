@@ -70,7 +70,7 @@ const studentData = [
     portfolio: true,
     portfolioUrl: 'https://lunagrace.tech/',
     email: 'Therese@lunagrace.tech',
-    desc: '',
+    desc: "Hi, i'm Therese. I'm a Frontend Developer under the name of Luna Grace. I love creating, both in logical and artistic ways. Currently located in Stockholm, Sweden. Skills: HTML, CSS, Javascript, Git, React, Next js, Sass.",
     img: '',
   },
   {
