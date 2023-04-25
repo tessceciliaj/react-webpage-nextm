@@ -60,7 +60,7 @@ export default function StudentCard({
             </div>
             <div className={styles.contactInfo}>
               <div className={styles.linkedinbox}>
-                <a href={linkedinUrl}>
+                <a href={linkedinUrl} id={!linkedin ? styles.disabled : ''}>
                   <div className={styles.icon}>
                     <FaLinkedin />
                   </div>
