@@ -2,8 +2,8 @@
 
 :root {
   --base-light: rgba(255,255,255,1);
-  --base-dark: rgba(36,36,37,1);
-  --accent-color: rgba(231,47,112,1);
+  --base-dark: #040404;
+  --accent-color: #d51951;
   --light-blue: rgba(188,224,253,1);
   --dark-blue: rgba(38,153,251,1);
 

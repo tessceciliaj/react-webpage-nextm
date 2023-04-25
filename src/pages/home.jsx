@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import styles from '../App.module.css'
 import blueShape from '../../public/shape-blue.png'
 import { Link } from 'react-router-dom';
+import logo from '../assets/FG_logo.png'
 
 const sliderContent = [
     { title: 'Internships',
@@ -26,7 +27,7 @@ export default function home() {
   return (
     <main className={styles.main}>
     <div className={styles.upperContainer}>
-      <img alt='LOGO' />
+      <img alt='LOGO' src={logo}/>
       <h2>DISCOVER</h2>
       <h1>FUTUREPROOF TALENT</h1>
     </div>
