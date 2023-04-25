@@ -16,14 +16,9 @@
 .upperContainer h2 {
   font-weight: 100;
   font-size: var(--h2);
-  padding-top:var(--input-padding);
 }
 
 .upperContainer h1 {
-  padding:var(--input-padding);
-}
-
-.upperContainer img {
   padding:var(--input-padding);
 }
 
