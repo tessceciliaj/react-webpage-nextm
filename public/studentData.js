@@ -139,7 +139,7 @@ const studentData = [
     id: '10',
     name: 'Rafal Zygula',
     profession:
-      'Agile Project Manager & Business Developer | Passionate about Digitization & Sustainability | Future-focused Product Designer | VR/AR/XR Explorer | Immersive Experience Enthusiast',
+      'Agile Producer',
     likedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/rafal-zygula/',
     portfolio: false,
@@ -175,7 +175,7 @@ const studentData = [
   {
     id: '13',
     name: 'Ardavan Masihabadi',
-    profession: 'Music Composer | Mix Engineer | Sound Designer',
+    profession: 'Audio Producer',
     likedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/ardavan-masihabadi-482a311b1',
     portfolio: true,
@@ -188,7 +188,7 @@ const studentData = [
   {
     id: '14',
     name: 'Sheila Géa',
-    profession: 'XR Generalist | Art & Game design',
+    profession: 'XR Creator',
     likedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/sheilagea/',
     portfolio: true,
