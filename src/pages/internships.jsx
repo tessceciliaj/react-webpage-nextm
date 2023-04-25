@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { getDatabase, ref, push } from 'firebase/database';
-import { initializeApp } from 'firebase/app';
+// import { getDatabase, ref, push } from 'firebase/database';
+// import { initializeApp } from 'firebase/app';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
-import firebaseConfig from '../firebaseConfig';
+// import firebaseConfig from '../firebaseConfig';
 import styles from '../styles/internships.module.css';
 import { Link } from 'react-router-dom';
 
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
+// const app = initializeApp(firebaseConfig);
+// const database = getDatabase(app);
 
 export default function internships() {
   const [name, setName] = useState('');
@@ -20,19 +20,19 @@ export default function internships() {
     console.log('email is: ' + email);
     console.log('phone is: ' + phone);
 
-    const databaseRef = ref(database, 'internshipSignups');
-    const person = {
-      name: name,
-      email: email,
-      phone: phone,
-    };
-    push(databaseRef, person)
-      .then(() => {
-        console.log('Data written successfully!');
-      })
-      .catch((error) => {
-        console.error('Error writing data: ', error);
-      });
+    // const databaseRef = ref(database, 'internshipSignups');
+    // const person = {
+    //   name: name,
+    //   email: email,
+    //   phone: phone,
+    // };
+    // push(databaseRef, person)
+    //   .then(() => {
+    //     console.log('Data written successfully!');
+    //   })
+    //   .catch((error) => {
+    //     console.error('Error writing data: ', error);
+    //   });
   };
 
   return (
