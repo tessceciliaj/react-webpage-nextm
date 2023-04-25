@@ -26,7 +26,7 @@ export default function about() {
         </div>
         <p className={styles.quote}>
           "Creating the hand mechanics made me rediscover how fun throwing
-          things is"
+          things are"
         </p>
       </div>
     </div>

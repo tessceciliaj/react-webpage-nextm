@@ -1,10 +1,10 @@
 .arrowLeft {
-    color: var(--dark-blue);
+    color: var(--accent-color);
     font-size: 20px;
 }
 
 .upperContainer {
-  height: 60px;
+  height: 50px;
   padding: 16px;
 }
 
@@ -15,19 +15,19 @@
 }
 
 .videoContainer {
-    background-color: var(--light-blue);
+    background-color: var(--accent-color);
     height: 340px;
-    margin: auto;
-    width: 340px;
+    margin:auto;
+    width: 100%;
 }
 
 .lowerContainer {
   background-color: var(--base-dark);
-  color: var(--light-blue);
+  color: var(--base-light);
   margin: auto;
   height: 240px;
   text-align: center;
-  width: 340px;
+  width: 100%;
 }
 
 .lowerContainer h3 {

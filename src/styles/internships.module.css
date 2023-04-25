@@ -41,11 +41,11 @@
 }
 
 .lowerContainer form input::placeholder {
-    color: var(--dark-blue);
+    color: var(--accent-color);
 }
 
 .lowerContainer h2 {
-    color: var(--dark-blue);
+    color: var(--base-dark);
     font-size: 16px;
     margin: 5vh auto 0;
     text-align: center;
@@ -54,9 +54,9 @@
 
 .btn {
     border: none;
-    background-color: var(--base-dark);
+    background-color: var(--accent-color);
     font-size: 18px;
-    color: var(--light-blue);
+    color: var(--base-light);
     top: calc(100% - 51px);
     padding: 16px 0 12px;
     position: absolute;

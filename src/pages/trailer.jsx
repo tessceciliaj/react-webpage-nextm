@@ -9,7 +9,7 @@ export default function Trailer() {
 
   const opts = {
     height: '340',
-    width: '340',
+    width: '100%',
     playerVars: {
       autoplay: 1,
     },
@@ -23,7 +23,7 @@ export default function Trailer() {
         </Link>
       </div>
       <div className={styles.videoContainer}>
-        <YouTube videoId="MQFIhbYUndc" opts={opts} />
+        <YouTube videoId="HJWOwlN5CrM" opts={opts} className={styles.video} />
       </div>
       <div className={styles.lowerContainer}>
         <h2>Watch our trailer</h2>

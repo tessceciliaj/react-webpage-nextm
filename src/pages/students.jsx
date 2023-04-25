@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Students() {
     return (
-        <div>
+        <div className={styles.page}>
             <div className={styles.arrowLeft}>
                 <Link to='/'>
                     <FaArrowLeft />
