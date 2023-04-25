@@ -40,6 +40,10 @@
     gap: 2%;
 }
 
+.email {
+    text-transform: lowercase;
+}
+
 .emailbox .icon {
     display: flex;
     justify-content: center;
