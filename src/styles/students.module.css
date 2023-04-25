@@ -116,8 +116,7 @@
     color: #999999;
 }
 
-/*DOES NOT WANNA WORK CORRECTLY*/
-.linkedinbox a.disabled {
+.linkedinbox a#disabled {
     color: #999999;
 
 }
