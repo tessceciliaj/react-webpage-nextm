@@ -65,10 +65,10 @@ const studentData = [
   {
     id: '4',
     name: 'Therese Johansson',
-    profession: 'Frontend Web Developer | Creative coding',
+    profession: 'Frontend developer',
     likedin: true,
     linkedinUrl: 'https://se.linkedin.com/in/therese-johansson-140a221a1',
-    portfolio: 'true',
+    portfolio: true,
     portfolioUrl: 'https://lunagrace.tech/',
     email: 'Therese@lunagrace.tech',
     desc: '',
@@ -120,7 +120,7 @@ const studentData = [
     portfolio: true,
     portfolioUrl: 'https://pasoamiko.wixsite.com/website',
     email: 'pasoamiko@gmail.com',
-    desc: "I am a Graphic Designer from Bangkok with a Master's Degree in Industrial Education (Product Design) and Bachelor’s degree in Architecture (Industrial Design ). I began my design career over 7 years ago as event 3D designer and now I have opportunities study Immersive Experince Creator at Futuregames. I looking for internship opportunities within design and Immersive Experience. If you need a creative designer with several years of experience do not hesitate to send me message.",
+    desc: "I am a Graphic Designer from Bangkok with a Master's Degree in Industrial Education (Product Design) and Bachelor's degree in Architecture (Industrial Design ). I began my design career over 7 years ago as event 3D designer and now I have opportunities study Immersive Experince Creator at Futuregames. I looking for internship opportunities within design and Immersive Experience. If you need a creative designer with several years of experience do not hesitate to send me message.",
     img: '',
   },
   {
@@ -132,7 +132,7 @@ const studentData = [
     portfolio: true,
     portfolioUrl: 'https://www.alexkami.com/',
     email: 'textcreating@gmail.com',
-    desc: '14 years in copywriting, 12 years in games, and 5 years as a publishing writer. Games and interactive stories are my biggest passion, and my vibe is to make the story playable, unforgettable, and beloved by millions. I’m good with making story structures, mixing creation and deadlines, business, and passion. I can do: game narrative, pitch and presentation, marketing texts, storyline, game flow, complex story, gdd, feature documents, quests, quests schemes, dialogues, technical tasks, briefs, prototype gdd, troubleshooting, and problem-solving. I am keen on logic, science, and structure, and I love chaos and the magic of creativity. I make games as immersive as it is only imaginable. I am currently updating my skills with Immersive Experience Creation and looking for new games to make. Hard skills: story writing, narrative design, GDDs, dialogues, plots, quests schemes, narrative management, organizing (convert chaos into the structure), UI/UX improvements, data mining, game problem-solving, evidence-based and result-oriented game development. Soft skills: stress tolerance, communication, creativity and educability, no-stress collaboration, hardworking',
+    desc: "14 years in copywriting, 12 years in games, and 5 years as a publishing writer. Games and interactive stories are my biggest passion, and my vibe is to make the story playable, unforgettable, and beloved by millions. I'm good with making story structures, mixing creation and deadlines, business, and passion. I can do: game narrative, pitch and presentation, marketing texts, storyline, game flow, complex story, gdd, feature documents, quests, quests schemes, dialogues, technical tasks, briefs, prototype gdd, troubleshooting, and problem-solving. I am keen on logic, science, and structure, and I love chaos and the magic of creativity. I make games as immersive as it is only imaginable. I am currently updating my skills with Immersive Experience Creation and looking for new games to make. Hard skills: story writing, narrative design, GDDs, dialogues, plots, quests schemes, narrative management, organizing (convert chaos into the structure), UI/UX improvements, data mining, game problem-solving, evidence-based and result-oriented game development. Soft skills: stress tolerance, communication, creativity and educability, no-stress collaboration, hardworking",
     img: '',
   },
   {
