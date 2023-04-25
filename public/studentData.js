@@ -100,7 +100,7 @@ const studentData = [
     {
         id: '7',
         name: 'Jad Tawbi',
-        profession: 'Experience Designer & Programmer',
+        profession: 'Game designer & programmer',
         likedin: true,
         linkedinUrl: 'http://www.linkedin.com/in/jad-tawbi-682a90218/',
         portfolio: true,
@@ -226,7 +226,7 @@ const studentData = [
         portfolio: true,
         portfolioUrl: 'http://www.wmartistmanagement.com/artists/creative/katarina-hakansson/',
         email: '',
-        desc: '',
+        desc: 'Katarina is a creative/visual artist with an extended global background in makeup and fashion. As a top makeup artist and creative lead within beauty brands, she possesses a strong foundation in visual design, storytelling, attention to detail, and insight into all areas of beauty. With her unique blend of expertise mixed with immersive technologies, she holds a diverse range of skills in various aspects of XR technology including virtual and augmented reality, interactive installations and gamification. Katarina applies all this knowledge into designing immersive, interactive, and visual digital projects that heighten, transport, and transfix.',
         img: '',
     },
     {
