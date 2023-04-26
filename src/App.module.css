@@ -50,3 +50,20 @@
   padding: 14px;
   width: 300px;
 }
+
+.swiperCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg {
+    padding: 5%;
+    max-width: 225px;
+}
+
+.sliderImg img {
+    height: 100%;
+    width: 100%;
+}
