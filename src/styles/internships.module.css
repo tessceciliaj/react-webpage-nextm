@@ -59,7 +59,7 @@
     color: var(--base-light);
     top: calc(100% - 51px);
     padding: 16px 0 12px;
-    position: absolute;
+    position: fixed;
     width: 100vw;
 }
 
