@@ -35,3 +35,24 @@ a {
   color: var(--base-light);
   text-decoration: none;
 }
+
+.bigScreen {
+    display: none;
+}
+
+@media  screen and (min-width: 650px) {
+    .smallScreen {
+        display: none;
+    }
+
+    .bigScreen  {
+        display: block;
+        position: absolute;
+        top:10%;
+        left: 30%;
+        font-size: large;
+        max-width: 400px;
+        border: 20px solid var(--accent-color);
+        padding: 2%;
+    }
+}
