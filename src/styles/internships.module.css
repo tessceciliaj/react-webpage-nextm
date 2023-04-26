@@ -9,6 +9,7 @@
     font-size: 20px;
     margin: var(--input-padding);
     margin-top: 3vh;
+    text-transform: uppercase;
 }
 
 .upperContainer p {

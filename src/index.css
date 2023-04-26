@@ -6,6 +6,8 @@
   --accent-color: #d51951;
   --light-blue: rgba(188,224,253,1);
   --dark-blue: rgba(38,153,251,1);
+  --swiper-theme-color: #d51951;
+  --swiper-navigation-size: 30px;
 
   --base-radius: 10px;
 
@@ -34,6 +36,10 @@ body {
 a {
   color: var(--base-light);
   text-decoration: none;
+}
+
+.smallScreen {
+    height: 100%;
 }
 
 .bigScreen {

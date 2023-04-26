@@ -1,8 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import styles from '../App.module.css';
 import blueShape from '../../public/FG_symbol_RGB.png';
 import { Link } from 'react-router-dom';
@@ -42,10 +43,12 @@ export default function home() {
             <div className={styles.lowerContainer}>
                 <div className={styles.sliderContainer}>
                     <Swiper
-                        modules={[Pagination]}
+                        className={styles.swiper}
+                        modules={[Pagination, Navigation]}
                         spaceBetween={50}
                         slidesPerView={1}
                         loop={true}
+                        navigation={true}
                         pagination={{ clickable: true }}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}

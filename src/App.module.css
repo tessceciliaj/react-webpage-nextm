@@ -21,6 +21,11 @@
 .upperContainer h1 {
   padding:var(--input-padding);
 }
+/* dont work as i want it to, to manioulate position of nav for swiper
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset,60%);
+} */
 
 .sliderContainer {
   background-color: var(--base-light);
@@ -60,7 +65,7 @@
 
 .sliderImg {
     padding: 5%;
-    max-width: 225px;
+    max-width: 190px;
 }
 
 .sliderImg img {
