@@ -6,8 +6,8 @@ import firebaseConfig from '../firebaseConfig';
 import styles from '../styles/internships.module.css';
 import { Link } from 'react-router-dom';
 
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
+// const app = initializeApp(firebaseConfig);
+// const database = getDatabase(app);
 
 export default function internships() {
   const [name, setName] = useState('');
@@ -15,31 +15,34 @@ export default function internships() {
   const [phone, setPhone] = useState('');
 
   const handleClick = (e) => {
-    e.preventDefault();
-    console.log('name is: ' + name);
-    console.log('email is: ' + email);
-    console.log('phone is: ' + phone);
+    // e.preventDefault();
+    // console.log('name is: ' + name);
+    // console.log('email is: ' + email);
+    // console.log('phone is: ' + phone);
 
-    const databaseRef = ref(database, 'internshipSignups');
-    const person = {
-      name: name,
-      email: email,
-      phone: phone,
-    };
-    push(databaseRef, person)
-      .then(() => {
-        console.log('Data written successfully!');
-      })
-      .catch((error) => {
-        console.error('Error writing data: ', error);
-      });
+    // const databaseRef = ref(database, 'internshipSignups');
+    // const person = {
+    //   name: name,
+    //   email: email,
+    //   phone: phone,
+    // };
+    // push(databaseRef, person)
+    //   .then(() => {
+    //     console.log('Data written successfully!');
+    //   })
+    //   .catch((error) => {
+    //     console.error('Error writing data: ', error);
+    //   });
+    alert(
+      'This form is no longer active, please contact the students directly thorugh LinkedIn'
+    );
   };
 
   return (
     <>
       <div className={styles.upperContainer}>
         <div className={styles.arrowLeft}>
-          <Link to="/">
+          <Link to='/'>
             <FaArrowLeft />
           </Link>
         </div>
@@ -52,31 +55,31 @@ export default function internships() {
       <div className={styles.lowerContainer}>
         <form>
           <input
-            type="text"
-            id="name"
-            name="name"
+            type='text'
+            id='name'
+            name='name'
             value={name}
-            placeholder="John Doe"
+            placeholder='John Doe'
             onChange={(e) => {
               setName(e.target.value);
             }}
           />
           <input
-            type="text"
-            id="email"
-            name="email"
+            type='text'
+            id='email'
+            name='email'
             value={email}
-            placeholder="johndoe@example.com"
+            placeholder='johndoe@example.com'
             onChange={(e) => {
               setEmail(e.target.value);
             }}
           />
           <input
-            type="text"
-            id="phone"
-            name="phone"
+            type='text'
+            id='phone'
+            name='phone'
             value={phone}
-            placeholder="123-546 789"
+            placeholder='123-546 789'
             onChange={(e) => {
               setPhone(e.target.value);
             }}
